@@ -1,0 +1,60 @@
+[0.008s] Invoking command in '/home/smith/ros2_learning/build/ros2_learning_ardusub': AMENT_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:/home/smith/colcon_ws/install/orca_nav2:/home/smith/colcon_ws/install/orca_base:/home/smith/colcon_ws/install/orca_shared:/home/smith/colcon_ws/install/ros2_shared:/home/smith/colcon_ws/install/orca_msgs:/home/smith/colcon_ws/install/orca_description:/home/smith/colcon_ws/install/orca_bringup:/home/smith/colcon_ws/install/orb_slam2_ros:/home/smith/colcon_ws/install/bluerov2_gz:/opt/ros/humble LD_LIBRARY_PATH=/home/smith/ros2_learning/install/ros2_learning_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/smith/.local/bin/cmake /home/smith/ros2_learning/ros2_learning_ardusub -DCMAKE_INSTALL_PREFIX=/home/smith/ros2_learning/install/ros2_learning_ardusub
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.166s] -- Detecting C compile features
+[0.166s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.211s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.223s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.511s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.593s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[0.594s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.628s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.634s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.642s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.669s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.694s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.708s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.791s] -- Configuring done (0.8s)
+[0.793s] -- Generating done (0.0s)
+[0.795s] -- Build files have been written to: /home/smith/ros2_learning/build/ros2_learning_ardusub
+[0.803s] Invoked command in '/home/smith/ros2_learning/build/ros2_learning_ardusub' returned '0': AMENT_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:/home/smith/colcon_ws/install/orca_nav2:/home/smith/colcon_ws/install/orca_base:/home/smith/colcon_ws/install/orca_shared:/home/smith/colcon_ws/install/ros2_shared:/home/smith/colcon_ws/install/orca_msgs:/home/smith/colcon_ws/install/orca_description:/home/smith/colcon_ws/install/orca_bringup:/home/smith/colcon_ws/install/orb_slam2_ros:/home/smith/colcon_ws/install/bluerov2_gz:/opt/ros/humble LD_LIBRARY_PATH=/home/smith/ros2_learning/install/ros2_learning_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/smith/.local/bin/cmake /home/smith/ros2_learning/ros2_learning_ardusub -DCMAKE_INSTALL_PREFIX=/home/smith/ros2_learning/install/ros2_learning_ardusub
+[0.805s] Invoking command in '/home/smith/ros2_learning/build/ros2_learning_ardusub': AMENT_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:/home/smith/colcon_ws/install/orca_nav2:/home/smith/colcon_ws/install/orca_base:/home/smith/colcon_ws/install/orca_shared:/home/smith/colcon_ws/install/ros2_shared:/home/smith/colcon_ws/install/orca_msgs:/home/smith/colcon_ws/install/orca_description:/home/smith/colcon_ws/install/orca_bringup:/home/smith/colcon_ws/install/orb_slam2_ros:/home/smith/colcon_ws/install/bluerov2_gz:/opt/ros/humble LD_LIBRARY_PATH=/home/smith/ros2_learning/install/ros2_learning_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/smith/.local/bin/cmake --build /home/smith/ros2_learning/build/ros2_learning_ardusub -- -j8 -l8
+[0.841s] Invoked command in '/home/smith/ros2_learning/build/ros2_learning_ardusub' returned '0': AMENT_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:/home/smith/colcon_ws/install/orca_nav2:/home/smith/colcon_ws/install/orca_base:/home/smith/colcon_ws/install/orca_shared:/home/smith/colcon_ws/install/ros2_shared:/home/smith/colcon_ws/install/orca_msgs:/home/smith/colcon_ws/install/orca_description:/home/smith/colcon_ws/install/orca_bringup:/home/smith/colcon_ws/install/orb_slam2_ros:/home/smith/colcon_ws/install/bluerov2_gz:/opt/ros/humble LD_LIBRARY_PATH=/home/smith/ros2_learning/install/ros2_learning_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/smith/.local/bin/cmake --build /home/smith/ros2_learning/build/ros2_learning_ardusub -- -j8 -l8
+[0.843s] Invoking command in '/home/smith/ros2_learning/build/ros2_learning_ardusub': AMENT_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:/home/smith/colcon_ws/install/orca_nav2:/home/smith/colcon_ws/install/orca_base:/home/smith/colcon_ws/install/orca_shared:/home/smith/colcon_ws/install/ros2_shared:/home/smith/colcon_ws/install/orca_msgs:/home/smith/colcon_ws/install/orca_description:/home/smith/colcon_ws/install/orca_bringup:/home/smith/colcon_ws/install/orb_slam2_ros:/home/smith/colcon_ws/install/bluerov2_gz:/opt/ros/humble LD_LIBRARY_PATH=/home/smith/ros2_learning/install/ros2_learning_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/smith/.local/bin/cmake --install /home/smith/ros2_learning/build/ros2_learning_ardusub
+[0.865s] -- Install configuration: ""
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/lib/ros2_learning_ardusub/ardusub_node.py
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/lib/ros2_learning_ardusub/mavlink_bridge.py
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/lib/ros2_learning_ardusub/thruster_controller.py
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/lib/ros2_learning_ardusub/depth_controller.py
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/lib/ros2_learning_ardusub/heading_controller.py
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/lib/ros2_learning_ardusub/telemetry_publisher.py
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/launch
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/launch/ardusub.launch.py
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/config
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/config/heading_controller.yaml
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/config/depth_controller.yaml
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/config/ardusub_params.yaml
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ament_index/resource_index/package_run_dependencies/ros2_learning_ardusub
+[0.865s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ament_index/resource_index/parent_prefix_path/ros2_learning_ardusub
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/environment/ament_prefix_path.sh
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/environment/ament_prefix_path.dsv
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/environment/path.sh
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/environment/path.dsv
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/local_setup.bash
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/local_setup.sh
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/local_setup.zsh
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/local_setup.dsv
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/package.dsv
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ament_index/resource_index/packages/ros2_learning_ardusub
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/cmake/ros2_learning_ardusubConfig.cmake
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/cmake/ros2_learning_ardusubConfig-version.cmake
+[0.866s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_ardusub/share/ros2_learning_ardusub/package.xml
+[0.871s] Invoked command in '/home/smith/ros2_learning/build/ros2_learning_ardusub' returned '0': AMENT_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smith/ros2_learning/install/ros2_learning_msg:/home/smith/colcon_ws/install/orca_nav2:/home/smith/colcon_ws/install/orca_base:/home/smith/colcon_ws/install/orca_shared:/home/smith/colcon_ws/install/ros2_shared:/home/smith/colcon_ws/install/orca_msgs:/home/smith/colcon_ws/install/orca_description:/home/smith/colcon_ws/install/orca_bringup:/home/smith/colcon_ws/install/orb_slam2_ros:/home/smith/colcon_ws/install/bluerov2_gz:/opt/ros/humble LD_LIBRARY_PATH=/home/smith/ros2_learning/install/ros2_learning_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/smith/.local/bin/cmake --install /home/smith/ros2_learning/build/ros2_learning_ardusub

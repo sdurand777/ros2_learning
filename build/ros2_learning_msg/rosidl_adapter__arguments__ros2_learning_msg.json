@@ -1,0 +1,9 @@
+{
+  "package_name": "ros2_learning_msg",
+  "non_idl_tuples": [
+    "/home/smith/ros2_learning/ros2_learning_msg:msg/RobotStatus.msg",
+    "/home/smith/ros2_learning/ros2_learning_msg:msg/SensorData.msg",
+    "/home/smith/ros2_learning/ros2_learning_msg:srv/GetStatus.srv",
+    "/home/smith/ros2_learning/ros2_learning_msg:srv/SetCommand.srv"
+  ]
+}

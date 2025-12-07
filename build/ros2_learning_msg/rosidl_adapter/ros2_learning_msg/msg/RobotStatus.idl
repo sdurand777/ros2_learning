@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_learning_msg/msg/RobotStatus.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ros2_learning_msg {
+  module msg {
+    module RobotStatus_Constants {
+      @verbatim (language="comment", text=
+        "Mode constants")
+      const uint8 MODE_MANUAL = 0;
+      const uint8 MODE_STABILIZE = 1;
+      const uint8 MODE_DEPTH_HOLD = 2;
+      const uint8 MODE_AUTO = 3;
+    };
+    @verbatim (language="comment", text=
+      "Custom message for robot status")
+    struct RobotStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Robot identification")
+      string robot_name;
+
+      uint32 robot_id;
+
+      @verbatim (language="comment", text=
+        "Position (x, y, z)")
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "Orientation (quaternion)")
+      geometry_msgs::msg::Quaternion orientation;
+
+      @verbatim (language="comment", text=
+        "Velocity (linear and angular)")
+      geometry_msgs::msg::Twist velocity;
+
+      @verbatim (language="comment", text=
+        "Battery level (0-100%)")
+      float battery_level;
+
+      @verbatim (language="comment", text=
+        "Status flags")
+      boolean is_armed;
+
+      boolean is_connected;
+
+      uint8 mode;
+    };
+  };
+};

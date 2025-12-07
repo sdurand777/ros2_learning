@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros2_learning_msg__py",
+		"source" : "/home/smith/ros2_learning/build/ros2_learning_msg/ros2_learning_msg__py"
+	}
+}

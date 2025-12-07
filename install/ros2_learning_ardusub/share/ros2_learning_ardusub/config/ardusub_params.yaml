@@ -1,0 +1,27 @@
+# ArduSub Node Parameters
+ardusub:
+  ros__parameters:
+    # MAVLink connection
+    connection_string: "udpin:0.0.0.0:14550"
+    baudrate: 115200
+    source_system: 255
+
+    # Communication rates (Hz)
+    heartbeat_rate: 1.0
+    telemetry_rate: 10.0
+
+# Thruster Controller Parameters
+thruster_controller:
+  ros__parameters:
+    max_thrust: 40.0        # Max thrust per thruster (N)
+    vehicle_mass: 11.5      # Vehicle mass (kg)
+
+# BlueROV2 Thruster mapping (for reference)
+# Thruster 0: Front-right horizontal
+# Thruster 1: Front-left horizontal
+# Thruster 2: Rear-right horizontal
+# Thruster 3: Rear-left horizontal
+# Thruster 4: Front-right vertical
+# Thruster 5: Front-left vertical
+# Thruster 6: Rear-right vertical
+# Thruster 7: Rear-left vertical

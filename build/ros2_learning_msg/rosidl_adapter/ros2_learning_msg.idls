@@ -1,0 +1,4 @@
+/home/smith/ros2_learning/build/ros2_learning_msg/rosidl_adapter/ros2_learning_msg:msg/RobotStatus.idl
+/home/smith/ros2_learning/build/ros2_learning_msg/rosidl_adapter/ros2_learning_msg:msg/SensorData.idl
+/home/smith/ros2_learning/build/ros2_learning_msg/rosidl_adapter/ros2_learning_msg:srv/GetStatus.idl
+/home/smith/ros2_learning/build/ros2_learning_msg/rosidl_adapter/ros2_learning_msg:srv/SetCommand.idl

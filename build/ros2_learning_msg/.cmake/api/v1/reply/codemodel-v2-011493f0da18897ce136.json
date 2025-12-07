@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9d1ff277148c876f772d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ros2_learning_msg__py",
+					"jsonFile" : "directory-ros2_learning_msg__py-9b693d0d7fd664e29300.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/smith/ros2_learning/build/ros2_learning_msg/ros2_learning_msg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros2_learning_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros2_learning_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros2_learning_msg_egg-e769663c10d4fbba5336.json",
+					"name" : "ament_cmake_python_build_ros2_learning_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ros2_learning_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ros2_learning_msg-68e45b008a0ef9f9a413.json",
+					"name" : "ament_cmake_python_copy_ros2_learning_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg-842eff462acd5a2a6e1b.json",
+					"name" : "ros2_learning_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__cpp-3cfc5a176178fcb73b6e.json",
+					"name" : "ros2_learning_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros2_learning_msg__py::@5974467c01102ed876b4",
+					"jsonFile" : "target-ros2_learning_msg__py-a8af43bdd3926aeb82c7.json",
+					"name" : "ros2_learning_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__rosidl_generator_c-d5b1131cbfbe33e23058.json",
+					"name" : "ros2_learning_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__rosidl_generator_py-0fa6b1a60b0254edc668.json",
+					"name" : "ros2_learning_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__rosidl_typesupport_c-b2681b42924d79528a66.json",
+					"name" : "ros2_learning_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__rosidl_typesupport_c__pyext-31a855616faead4adb12.json",
+					"name" : "ros2_learning_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__rosidl_typesupport_cpp-3c0e7e1c8fcf2176473c.json",
+					"name" : "ros2_learning_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__rosidl_typesupport_fastrtps_c-c07d2dfc6223de427fcf.json",
+					"name" : "ros2_learning_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__rosidl_typesupport_fastrtps_c__pyext-248b973f2efde4e85097.json",
+					"name" : "ros2_learning_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__rosidl_typesupport_fastrtps_cpp-526a661045a682ea3dcb.json",
+					"name" : "ros2_learning_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__rosidl_typesupport_introspection_c-48271e3036a846dc77af.json",
+					"name" : "ros2_learning_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__rosidl_typesupport_introspection_c__pyext-c4de3c19f70bef89e715.json",
+					"name" : "ros2_learning_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg__rosidl_typesupport_introspection_cpp-2ce4b8deef81bd6e2e6b.json",
+					"name" : "ros2_learning_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_learning_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_learning_msg_uninstall-d74878daa2c24c0b0518.json",
+					"name" : "ros2_learning_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9ae88b0bb5100ad52d68.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/smith/ros2_learning/build/ros2_learning_msg",
+		"source" : "/home/smith/ros2_learning/ros2_learning_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

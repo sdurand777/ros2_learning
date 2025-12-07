@@ -1,0 +1,14 @@
+# Depth Controller PID parameters
+depth_controller:
+  ros__parameters:
+    # PID gains
+    kp: 50.0
+    ki: 5.0
+    kd: 20.0
+
+    # Limits
+    max_thrust: 100.0     # Maximum vertical thrust in Newtons
+    dead_band: 0.05       # Dead band in meters
+
+    # Control rate
+    rate: 50.0            # Control loop frequency in Hz

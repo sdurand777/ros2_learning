@@ -1,0 +1,342 @@
+[0.009s] Invoking command in '/home/smith/ros2_learning/build/ros2_learning_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/smith/.local/bin/cmake /home/smith/ros2_learning/ros2_learning_msg -DCMAKE_INSTALL_PREFIX=/home/smith/ros2_learning/install/ros2_learning_msg
+[0.231s] -- The C compiler identification is GNU 11.4.0
+[0.375s] -- The CXX compiler identification is GNU 11.4.0
+[0.390s] -- Detecting C compiler ABI info
+[0.468s] -- Detecting C compiler ABI info - done
+[0.476s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.476s] -- Detecting C compile features
+[0.477s] -- Detecting C compile features - done
+[0.480s] -- Detecting CXX compiler ABI info
+[0.523s] -- Detecting CXX compiler ABI info - done
+[0.533s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.533s] -- Detecting CXX compile features
+[0.533s] -- Detecting CXX compile features - done
+[0.538s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.798s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.888s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[0.890s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.938s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.945s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.956s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.973s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.026s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.044s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.066s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.309s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.718s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.720s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.753s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.753s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.753s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.753s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.774s] -- Found PythonExtra: .so  
+[1.852s] -- Configuring done (1.8s)
+[1.884s] -- Generating done (0.0s)
+[1.892s] -- Build files have been written to: /home/smith/ros2_learning/build/ros2_learning_msg
+[1.902s] Invoked command in '/home/smith/ros2_learning/build/ros2_learning_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/smith/.local/bin/cmake /home/smith/ros2_learning/ros2_learning_msg -DCMAKE_INSTALL_PREFIX=/home/smith/ros2_learning/install/ros2_learning_msg
+[1.904s] Invoking command in '/home/smith/ros2_learning/build/ros2_learning_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/smith/.local/bin/cmake --build /home/smith/ros2_learning/build/ros2_learning_msg -- -j8 -l8
+[1.938s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.942s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.943s] [  3%] Built target ament_cmake_python_copy_ros2_learning_msg
+[2.145s] running egg_info
+[2.165s] creating ros2_learning_msg.egg-info
+[2.165s] writing ros2_learning_msg.egg-info/PKG-INFO
+[2.165s] writing dependency_links to ros2_learning_msg.egg-info/dependency_links.txt
+[2.165s] writing top-level names to ros2_learning_msg.egg-info/top_level.txt
+[2.165s] writing manifest file 'ros2_learning_msg.egg-info/SOURCES.txt'
+[2.223s] reading manifest file 'ros2_learning_msg.egg-info/SOURCES.txt'
+[2.224s] writing manifest file 'ros2_learning_msg.egg-info/SOURCES.txt'
+[2.244s] [  3%] Built target ament_cmake_python_build_ros2_learning_msg_egg
+[2.464s] [  3%] Built target ros2_learning_msg__cpp
+[2.468s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.469s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.469s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.477s] [ 10%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_generator_c.dir/rosidl_generator_c/ros2_learning_msg/msg/detail/robot_status__functions.c.o[0m
+[2.477s] [ 12%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_generator_c.dir/rosidl_generator_c/ros2_learning_msg/msg/detail/sensor_data__functions.c.o[0m
+[2.477s] [ 14%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_generator_c.dir/rosidl_generator_c/ros2_learning_msg/srv/detail/get_status__functions.c.o[0m
+[2.477s] [ 16%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_generator_c.dir/rosidl_generator_c/ros2_learning_msg/srv/detail/set_command__functions.c.o[0m
+[2.591s] [ 18%] [32m[1mLinking C shared library libros2_learning_msg__rosidl_generator_c.so[0m
+[2.616s] [ 18%] Built target ros2_learning_msg__rosidl_generator_c
+[2.620s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.622s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.622s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.922s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_learning_msg/msg/robot_status__type_support.cpp.o[0m
+[2.922s] [ 29%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_learning_msg/msg/sensor_data__type_support.cpp.o[0m
+[2.923s] [ 27%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_learning_msg/srv/get_status__type_support.cpp.o[0m
+[3.024s] [ 30%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_learning_msg/msg/detail/robot_status__type_support.cpp.o[0m
+[3.384s] [ 32%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_learning_msg/srv/set_command__type_support.cpp.o[0m
+[3.387s] [ 34%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_learning_msg/msg/detail/sensor_data__type_support.cpp.o[0m
+[3.388s] [ 36%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_learning_msg/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[3.390s] [ 38%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_learning_msg/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o[0m
+[3.425s] [ 40%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_learning_msg/msg/robot_status__type_support.cpp.o[0m
+[3.480s] [ 41%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_learning_msg/msg/sensor_data__type_support.cpp.o[0m
+[3.533s] [ 43%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_learning_msg/srv/get_status__type_support.cpp.o[0m
+[3.546s] [ 45%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_learning_msg/msg/detail/robot_status__type_support.c.o[0m
+[3.568s] [ 47%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/msg/detail/robot_status__type_support_c.cpp.o[0m
+[3.592s] [ 49%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_learning_msg/srv/set_command__type_support.cpp.o[0m
+[3.597s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_learning_msg/srv/detail/dds_fastrtps/get_status__type_support.cpp.o[0m
+[3.609s] [ 52%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_learning_msg/msg/detail/sensor_data__type_support.c.o[0m
+[3.645s] [ 54%] [32m[1mLinking CXX shared library libros2_learning_msg__rosidl_typesupport_c.so[0m
+[3.669s] [ 56%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_learning_msg/srv/detail/get_status__type_support.c.o[0m
+[3.685s] [ 56%] Built target ros2_learning_msg__rosidl_typesupport_c
+[3.689s] [ 58%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_learning_msg/srv/detail/set_command__type_support.c.o[0m
+[3.730s] [ 60%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/msg/detail/sensor_data__type_support_c.cpp.o[0m
+[3.755s] [ 61%] [32m[1mLinking C shared library libros2_learning_msg__rosidl_typesupport_introspection_c.so[0m
+[3.787s] [ 63%] [32m[1mLinking CXX shared library libros2_learning_msg__rosidl_typesupport_cpp.so[0m
+[3.787s] [ 63%] Built target ros2_learning_msg__rosidl_typesupport_introspection_c
+[3.791s] [ 65%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_learning_msg/srv/detail/dds_fastrtps/set_command__type_support.cpp.o[0m
+[3.827s] [ 65%] Built target ros2_learning_msg__rosidl_typesupport_cpp
+[3.831s] [ 67%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_learning_msg/srv/detail/get_status__type_support.cpp.o[0m
+[3.976s] [ 69%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/srv/detail/get_status__type_support_c.cpp.o[0m
+[4.017s] [ 70%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/srv/detail/set_command__type_support_c.cpp.o[0m
+[4.021s] [ 72%] [32mBuilding CXX object CMakeFiles/ros2_learning_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_learning_msg/srv/detail/set_command__type_support.cpp.o[0m
+[4.467s] [ 74%] [32m[1mLinking CXX shared library libros2_learning_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.514s] [ 76%] [32m[1mLinking CXX shared library libros2_learning_msg__rosidl_typesupport_fastrtps_c.so[0m
+[4.527s] [ 76%] Built target ros2_learning_msg__rosidl_typesupport_fastrtps_cpp
+[4.582s] [ 76%] Built target ros2_learning_msg__rosidl_typesupport_fastrtps_c
+[4.594s] [ 78%] [32m[1mLinking CXX shared library libros2_learning_msg__rosidl_typesupport_introspection_cpp.so[0m
+[4.648s] [ 78%] Built target ros2_learning_msg__rosidl_typesupport_introspection_cpp
+[4.656s] [ 78%] Built target ros2_learning_msg
+[4.663s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.521s] [ 80%] Built target ros2_learning_msg__py
+[5.528s] [ 81%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_generator_py.dir/rosidl_generator_py/ros2_learning_msg/msg/_robot_status_s.c.o[0m
+[5.528s] [ 83%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_generator_py.dir/rosidl_generator_py/ros2_learning_msg/msg/_sensor_data_s.c.o[0m
+[5.528s] [ 85%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_generator_py.dir/rosidl_generator_py/ros2_learning_msg/srv/_get_status_s.c.o[0m
+[5.528s] [ 87%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_generator_py.dir/rosidl_generator_py/ros2_learning_msg/srv/_set_command_s.c.o[0m
+[5.691s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/ros2_learning_msg/libros2_learning_msg__rosidl_generator_py.so[0m
+[5.718s] [ 89%] Built target ros2_learning_msg__rosidl_generator_py
+[5.725s] [ 90%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_learning_msg/_ros2_learning_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.725s] [ 92%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_learning_msg/_ros2_learning_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.725s] [ 94%] [32mBuilding C object CMakeFiles/ros2_learning_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_learning_msg/_ros2_learning_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[5.859s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.859s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.859s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.883s] [100%] Built target ros2_learning_msg__rosidl_typesupport_c__pyext
+[5.883s] [100%] Built target ros2_learning_msg__rosidl_typesupport_introspection_c__pyext
+[5.883s] [100%] Built target ros2_learning_msg__rosidl_typesupport_fastrtps_c__pyext
+[5.890s] Invoked command in '/home/smith/ros2_learning/build/ros2_learning_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/smith/.local/bin/cmake --build /home/smith/ros2_learning/build/ros2_learning_msg -- -j8 -l8
+[5.915s] Invoking command in '/home/smith/ros2_learning/build/ros2_learning_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/smith/.local/bin/cmake --install /home/smith/ros2_learning/build/ros2_learning_msg
+[5.936s] -- Install configuration: ""
+[5.936s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ament_index/resource_index/rosidl_interfaces/ros2_learning_msg
+[5.936s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg
+[5.936s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv
+[5.936s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/set_command.h
+[5.936s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/get_status.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__type_support.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__type_support.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__struct.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__functions.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__struct.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__functions.c
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__functions.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__functions.c
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/rosidl_generator_c__visibility_control.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/robot_status.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/sensor_data.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__functions.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__struct.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__type_support.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__functions.c
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__functions.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__struct.h
+[5.937s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__functions.c
+[5.938s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__type_support.h
+[5.938s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/environment/library_path.sh
+[5.938s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/environment/library_path.dsv
+[5.938s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_generator_c.so
+[5.938s] -- Set runtime path of "/home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_generator_c.so" to ""
+[5.938s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg
+[5.938s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv
+[5.938s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail
+[5.938s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__rosidl_typesupport_fastrtps_c.h
+[5.938s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__rosidl_typesupport_fastrtps_c.h
+[5.938s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg
+[5.938s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail
+[5.938s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h
+[5.938s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[5.938s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.938s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_fastrtps_c.so
+[5.939s] -- Set runtime path of "/home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[5.939s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg
+[5.939s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/set_command.hpp
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/get_status.hpp
+[5.939s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__builder.hpp
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__traits.hpp
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__type_support.hpp
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__traits.hpp
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__builder.hpp
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__type_support.hpp
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__struct.hpp
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__struct.hpp
+[5.939s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/sensor_data.hpp
+[5.939s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__struct.hpp
+[5.939s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__struct.hpp
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__builder.hpp
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__traits.hpp
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__traits.hpp
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__type_support.hpp
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__type_support.hpp
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__builder.hpp
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/robot_status.hpp
+[5.940s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg
+[5.940s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv
+[5.940s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/dds_fastrtps
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.940s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.940s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/dds_fastrtps
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.940s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_fastrtps_cpp.so
+[5.941s] -- Set runtime path of "/home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.941s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg
+[5.941s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv
+[5.941s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail
+[5.941s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__type_support.c
+[5.941s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__type_support.c
+[5.941s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__rosidl_typesupport_introspection_c.h
+[5.941s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__rosidl_typesupport_introspection_c.h
+[5.941s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg
+[5.941s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail
+[5.941s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[5.941s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__type_support.c
+[5.941s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__type_support.c
+[5.941s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h
+[5.941s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.941s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_introspection_c.so
+[5.941s] -- Set runtime path of "/home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_introspection_c.so" to ""
+[5.941s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_c.so
+[5.942s] -- Set runtime path of "/home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_c.so" to ""
+[5.942s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg
+[5.942s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv
+[5.942s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail
+[5.942s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__rosidl_typesupport_introspection_cpp.hpp
+[5.942s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__type_support.cpp
+[5.942s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/get_status__rosidl_typesupport_introspection_cpp.hpp
+[5.942s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/srv/detail/set_command__type_support.cpp
+[5.942s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg
+[5.942s] -- Up-to-date: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail
+[5.942s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp
+[5.942s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/sensor_data__type_support.cpp
+[5.943s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[5.943s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/include/ros2_learning_msg/ros2_learning_msg/msg/detail/robot_status__type_support.cpp
+[5.943s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_introspection_cpp.so
+[5.943s] -- Set runtime path of "/home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[5.943s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_cpp.so
+[5.943s] -- Set runtime path of "/home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_typesupport_cpp.so" to ""
+[5.943s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/environment/pythonpath.sh
+[5.943s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/environment/pythonpath.dsv
+[5.943s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg-0.1.0-py3.10.egg-info
+[5.943s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg-0.1.0-py3.10.egg-info/dependency_links.txt
+[5.943s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg-0.1.0-py3.10.egg-info/PKG-INFO
+[5.943s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg-0.1.0-py3.10.egg-info/top_level.txt
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg-0.1.0-py3.10.egg-info/SOURCES.txt
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/_ros2_learning_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/_ros2_learning_msg_s.ep.rosidl_typesupport_introspection_c.c
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/__init__.py
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/libros2_learning_msg__rosidl_generator_py.so
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/_ros2_learning_msg_s.ep.rosidl_typesupport_c.c
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/srv
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/srv/_get_status.py
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/srv/_set_command.py
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/srv/__init__.py
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/srv/_get_status_s.c
+[5.944s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/srv/_set_command_s.c
+[5.945s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.945s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/msg
+[5.945s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/msg/__init__.py
+[5.945s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/msg/_robot_status_s.c
+[5.945s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/msg/_robot_status.py
+[5.945s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/msg/_sensor_data.py
+[5.945s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/msg/_sensor_data_s.c
+[5.977s] Listing '/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg'...
+[5.977s] Compiling '/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/__init__.py'...
+[5.977s] Listing '/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/msg'...
+[5.977s] Compiling '/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/msg/__init__.py'...
+[5.977s] Compiling '/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/msg/_robot_status.py'...
+[5.977s] Compiling '/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/msg/_sensor_data.py'...
+[5.977s] Listing '/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/srv'...
+[5.977s] Compiling '/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/srv/__init__.py'...
+[5.977s] Compiling '/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/srv/_get_status.py'...
+[5.977s] Compiling '/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/srv/_set_command.py'...
+[5.981s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.981s] -- Set runtime path of "/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.981s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.981s] -- Set runtime path of "/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.981s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.981s] -- Set runtime path of "/home/smith/ros2_learning/install/ros2_learning_msg/local/lib/python3.10/dist-packages/ros2_learning_msg/ros2_learning_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.981s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_generator_py.so
+[5.981s] -- Set runtime path of "/home/smith/ros2_learning/install/ros2_learning_msg/lib/libros2_learning_msg__rosidl_generator_py.so" to ""
+[5.981s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/msg/RobotStatus.idl
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/msg/SensorData.idl
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/srv/GetStatus.idl
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/srv/SetCommand.idl
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/msg/RobotStatus.msg
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/msg/SensorData.msg
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/srv/GetStatus.srv
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/srv/GetStatus_Request.msg
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/srv/GetStatus_Response.msg
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/srv/SetCommand.srv
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/srv/SetCommand_Request.msg
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/srv/SetCommand_Response.msg
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/ros2_learning_msg/publisher_example.py
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/ros2_learning_msg/subscriber_example.py
+[5.982s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/ros2_learning_msg/service_server.py
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/lib/ros2_learning_msg/service_client.py
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ament_index/resource_index/package_run_dependencies/ros2_learning_msg
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ament_index/resource_index/parent_prefix_path/ros2_learning_msg
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/environment/ament_prefix_path.sh
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/environment/ament_prefix_path.dsv
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/environment/path.sh
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/environment/path.dsv
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/local_setup.bash
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/local_setup.sh
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/local_setup.zsh
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/local_setup.dsv
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/package.dsv
+[5.983s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ament_index/resource_index/packages/ros2_learning_msg
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/export_ros2_learning_msg__rosidl_generator_cExport.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/export_ros2_learning_msg__rosidl_generator_cExport-noconfig.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/export_ros2_learning_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/export_ros2_learning_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/export_ros2_learning_msg__rosidl_generator_cppExport.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/export_ros2_learning_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/export_ros2_learning_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ros2_learning_msg__rosidl_typesupport_introspection_cExport.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ros2_learning_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ros2_learning_msg__rosidl_typesupport_cExport.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ros2_learning_msg__rosidl_typesupport_cExport-noconfig.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ros2_learning_msg__rosidl_typesupport_introspection_cppExport.cmake
+[5.984s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ros2_learning_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ros2_learning_msg__rosidl_typesupport_cppExport.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ros2_learning_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/export_ros2_learning_msg__rosidl_generator_pyExport.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/export_ros2_learning_msg__rosidl_generator_pyExport-noconfig.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/rosidl_cmake-extras.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ament_cmake_export_targets-extras.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ros2_learning_msgConfig.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/cmake/ros2_learning_msgConfig-version.cmake
+[5.985s] -- Installing: /home/smith/ros2_learning/install/ros2_learning_msg/share/ros2_learning_msg/package.xml
+[5.990s] Invoked command in '/home/smith/ros2_learning/build/ros2_learning_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/smith/.local/bin/cmake --install /home/smith/ros2_learning/build/ros2_learning_msg

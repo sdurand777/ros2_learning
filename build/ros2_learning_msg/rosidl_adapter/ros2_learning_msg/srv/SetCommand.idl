@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_learning_msg/srv/SetCommand.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_learning_msg {
+  module srv {
+    module SetCommand_Request_Constants {
+      @verbatim (language="comment", text=
+        "Command type constants")
+      const uint8 CMD_ARM = 0;
+      const uint8 CMD_DISARM = 1;
+      const uint8 CMD_SET_MODE = 2;
+      const uint8 CMD_SET_DEPTH = 3;
+      const uint8 CMD_SET_HEADING = 4;
+      const uint8 CMD_MOVE = 5;
+    };
+    @verbatim (language="comment", text=
+      "Request - Send command to robot")
+    struct SetCommand_Request {
+      string robot_name;
+
+      uint8 command_type;
+
+      sequence<float> parameters;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct SetCommand_Response {
+      boolean success;
+
+      string message;
+
+      uint32 command_id;
+    };
+  };
+};

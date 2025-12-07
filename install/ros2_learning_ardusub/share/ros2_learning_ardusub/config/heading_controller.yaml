@@ -1,0 +1,14 @@
+# Heading Controller PID parameters
+heading_controller:
+  ros__parameters:
+    # PID gains
+    kp: 10.0
+    ki: 1.0
+    kd: 5.0
+
+    # Limits
+    max_torque: 20.0      # Maximum yaw torque in Nm
+    dead_band: 0.02       # Dead band in radians (~1 degree)
+
+    # Control rate
+    rate: 50.0            # Control loop frequency in Hz

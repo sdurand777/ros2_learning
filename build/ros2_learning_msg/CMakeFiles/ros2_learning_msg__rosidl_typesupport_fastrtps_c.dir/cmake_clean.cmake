@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/msg/detail/robot_status__type_support_c.cpp.o"
+  "CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/msg/detail/robot_status__type_support_c.cpp.o.d"
+  "CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/msg/detail/sensor_data__type_support_c.cpp.o"
+  "CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/msg/detail/sensor_data__type_support_c.cpp.o.d"
+  "CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/srv/detail/get_status__type_support_c.cpp.o"
+  "CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/srv/detail/get_status__type_support_c.cpp.o.d"
+  "CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/srv/detail/set_command__type_support_c.cpp.o"
+  "CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_learning_msg/srv/detail/set_command__type_support_c.cpp.o.d"
+  "libros2_learning_msg__rosidl_typesupport_fastrtps_c.pdb"
+  "libros2_learning_msg__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/ros2_learning_msg/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/ros2_learning_msg/msg/detail/robot_status__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/ros2_learning_msg/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/ros2_learning_msg/msg/detail/sensor_data__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/ros2_learning_msg/srv/detail/get_status__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/ros2_learning_msg/srv/detail/get_status__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/ros2_learning_msg/srv/detail/set_command__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/ros2_learning_msg/srv/detail/set_command__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ros2_learning_msg__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

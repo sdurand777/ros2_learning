@@ -1,0 +1,54 @@
+# ROS-Gazebo Bridge Configuration
+# Use with: ros2 run ros_gz_bridge parameter_bridge --ros-args -p config_file:=<path_to_this_file>
+
+# Topics bridged from Gazebo to ROS2
+- topic_name: "/clock"
+  ros_type_name: "rosgraph_msgs/msg/Clock"
+  gz_topic_name: "/clock"
+  direction: GZ_TO_ROS
+
+- topic_name: "/odom"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_topic_name: "/model/bluerov2/odometry"
+  direction: GZ_TO_ROS
+
+- topic_name: "/imu/data"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_topic_name: "/world/underwater_world/model/bluerov2/link/base_link/sensor/imu/imu"
+  direction: GZ_TO_ROS
+
+- topic_name: "/camera/image_raw"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_topic_name: "/world/underwater_world/model/bluerov2/link/camera_link/sensor/camera/image"
+  direction: GZ_TO_ROS
+
+- topic_name: "/depth"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_topic_name: "/model/bluerov2/depth"
+  direction: GZ_TO_ROS
+
+# Topics bridged from ROS2 to Gazebo
+- topic_name: "/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_topic_name: "/model/bluerov2/cmd_vel"
+  direction: ROS_TO_GZ
+
+- topic_name: "/thrusters/0/cmd"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_topic_name: "/model/bluerov2/joint/thruster_0/cmd_thrust"
+  direction: ROS_TO_GZ
+
+- topic_name: "/thrusters/1/cmd"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_topic_name: "/model/bluerov2/joint/thruster_1/cmd_thrust"
+  direction: ROS_TO_GZ
+
+- topic_name: "/thrusters/2/cmd"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_topic_name: "/model/bluerov2/joint/thruster_2/cmd_thrust"
+  direction: ROS_TO_GZ
+
+- topic_name: "/thrusters/3/cmd"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_topic_name: "/model/bluerov2/joint/thruster_3/cmd_thrust"
+  direction: ROS_TO_GZ

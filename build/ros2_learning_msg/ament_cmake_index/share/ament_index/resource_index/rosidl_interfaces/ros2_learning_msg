@@ -1,0 +1,12 @@
+msg/RobotStatus.idl
+msg/RobotStatus.msg
+msg/SensorData.idl
+msg/SensorData.msg
+srv/GetStatus.idl
+srv/GetStatus.srv
+srv/GetStatus_Request.msg
+srv/GetStatus_Response.msg
+srv/SetCommand.idl
+srv/SetCommand.srv
+srv/SetCommand_Request.msg
+srv/SetCommand_Response.msg
